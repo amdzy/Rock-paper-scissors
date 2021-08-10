@@ -1,0 +1,123 @@
+:root {
+    --yellow: #ffc600;
+    --black: #272727;
+  }
+
+html {
+    box-sizing: border-box;
+    font-weight: 900;
+    font-size: 10px;
+    color: var(--black);
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+    min-height: 100vh;
+    font-family: 'Comic Neue', cursive;
+}
+
+* ::after::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #e7ecef;
+    
+    font-size: 1.5rem;
+    
+}
+
+header {
+    text-align: center;
+    font-size: 4rem;
+    color: #274c77;
+}
+
+
+.score {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 2rem;
+    margin: auto;
+    width: 50%;
+}
+
+
+.game {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    margin-top: 5vw;
+    width: 100%;
+}
+
+.wrapper{
+    display: flex; 
+    width: 100%;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    border: 1px solid var(--black);
+    border-radius: .5rem;
+    margin: 5px;
+}
+
+
+img {
+    width: 12vw ;
+    height: 12vh;
+    cursor: pointer;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.reset-btn {
+    padding: 0.5rem;
+    background-color: #6096ba;
+}
+
+.result {
+    border: 3px solid var(--black);
+    border-radius: 5px;
+    min-width: 15rem;
+    min-height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 .1rem var(--black);
+    color: #8b8c89;
+}
+
+.score-box {
+    border: 3px solid var(--black);
+    border-radius: 5px;
+    min-width: 7.5rem;
+    min-height: 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 .1rem var(--black);
+    color: #8b8c89;
+}
+
+
+@media (max-width:700px) {
+    .score {
+        width: 100%;
+    }
+    img {
+        width: 18vw;
+        height: 18vh;
+    }
+   
+}
+
+
+
+

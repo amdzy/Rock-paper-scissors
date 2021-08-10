@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+        <p class="header-para">First to 5 win</p>
+    </header>
+    <div class="score">
+        <div>
+            Your Score:<div class="player-score score score-box"></div>
+        </div>
+        <div class="result">
+        </div>
+        <div>
+            PC Score:<div class="pc-score score score-box"></div>
+        </div>
+    </div>
+    <div class="game">
+        <div class="wrapper">
+            <div class="player-rock box">
+                <button id="btn" value="rock"><img src="images/rock.svg" alt="rock"></button>
+            </div>
+            <div class="player-paper box">
+                <button id="btn" value="paper"><img src="images/paper.svg" alt="paper"></button>
+            </div>
+            <div class="player-scissors box">
+                <button id="btn" value="scissors"><img src="images/scissor.svg" alt="scissors"></button>
+            </div>
+        </div>
+    </div>
+    <div class="reset">
+        <button class="reset-btn">Play Again!</button>
+    </div>
+
+    <script src="Scripts/script.js" async defer></script>
+</body>
+
+</html>
