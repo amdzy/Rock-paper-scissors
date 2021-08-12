@@ -2,4 +2,4 @@
 
 <p>A simple rock paper scissors game made with html,css and vanilla js</p>
   
-<a href="https://soul-remix.github.io/Rock-paper-scissors/">Live Demo</a>
+<a href="https://amdzy.github.io/Rock-paper-scissors/">Live Demo</a>
